@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.containerBcg {
+  background-image: url('../../images/iphone.png'), url('../../images/bcg.jpeg');
+
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100%, 300%;
+  width: 400px;
+  height: 804px;
+  position: relative;
+}
+.contactBook {
+  position: absolute;
+  width: 100%;
+  padding: 50px 36px 10px 36px;
+}
+
+.title {
+  font-size: 30px;
+  color: white;
+}
+
+.subTitle {
+  color: white;
+}
+
+.noContact {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+}
+
+.LogoutIcon {
+  font-size: 10px;
+}

@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.containerBcg {
+  background-image: url('../images/iphone.png'), url('../images/bcg.jpeg');
+
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100%, 300%;
+  width: 400px;
+  height: 804px;
+  position: relative;
+}
+.contactBook {
+  position: absolute;
+  width: 100%;
+  padding: 50px 36px 10px 36px;
+}
+
+.mainContainer {
+  margin-top: 50%;
+}
+
+.title {
+  font-size: 30px;
+  color: white;
+}
+
+.subTitle {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.home {
+  color: white;
+  text-decoration: none;
+}
